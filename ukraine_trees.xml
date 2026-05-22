@@ -5,18 +5,18 @@
          uk.description="Європейські дерева та кущі"
          shortdescription="Trees and Shrubs"
          uk.shortdescription="Дерева та кущі"
-         version="1.2">
+         version="1.3">
 
 <chunk id="tree_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
-           values="Quercus robur,Quercus petraea,Quercus rubra,Quercus pubescens,Aesculus hippocastanum,Aesculus carnea,Castanea sativa,Acer platanoides,Acer pseudoplatanus,Acer campestre,Acer tataricum,Acer negundo,Acer palmatum,Prunus serrulata,Prunus yedoensis,Prunus subhirtella,Prunus avium,Prunus cerasus,Prunus padus,Prunus domestica,Prunus armeniaca,Prunus persica,Morus alba,Morus nigra,Thuja occidentalis,Thuja orientalis,Thuja plicata,Magnolia soulangeana,Magnolia stellata,Magnolia grandiflora,Tilia cordata,Tilia platyphyllos,Tilia europaea,Malus domestica,Malus sylvestris,Malus floribunda,Pyrus communis,Pyrus pyraster,Betula pendula,Betula pubescens,Fraxinus excelsior,Picea abies,Picea pungens,Pinus sylvestris,Pinus nigra,Pinus nigra subsp. pallasiana,Larix Pip,Salix alba,Salix babylonica,Populus nigra,Populus tremula,Populus alba,Sorbus aucuparia,Crataegus monogyna,Robinia pseudoacacia,Gleditsia triacanthos,Stryphnodendron excelsum,Carpinus betulus,Fagus sylvatica,Ulmus glabra,Ulmus laevis,Corylus avellana,Juglans regia,Ginkgo biloba,Catalpa bignonioides,Platanus orientalis,Liriodendron tulipifera,Paulownia tomentosa,Cotinus coggygria,Staphylea pinnata,Sophora japonica,Cedrus atlantica,Taxus baccata,Abies alba,Alnus glutinosa"
+           values="Quercus robur,Quercus petraea,Quercus rubra,Quercus pubescens,Aesculus hippocastanum,Aesculus carnea,Castanea sativa,Acer platanoides,Acer pseudoplatanus,Acer campestre,Acer tataricum,Acer negundo,Acer palmatum,Prunus serrulata,Prunus yedoensis,Prunus subhirtella,Prunus avium,Prunus cerasus,Prunus padus,Prunus domestica,Prunus armeniaca,Prunus persica,Morus alba,Morus nigra,Thuja occidentalis,Thuja orientalis,Thuja plicata,Magnolia soulangeana,Magnolia stellata,Magnolia grandiflora,Tilia cordata,Tilia platyphyllos,Tilia europaea,Malus domestica,Malus sylvestris,Malus floribunda,Pyrus communis,Pyrus pyraster,Betula pendula,Betula pubescens,Fraxinus excelsior,Picea abies,Picea pungens,Pinus sylvestris,Pinus nigra,Pinus nigra subsp. pallasiana,Larix decidua,Salix alba,Salix babylonica,Populus nigra,Populus tremula,Populus alba,Sorbus aucuparia,Crataegus monogyna,Robinia pseudoacacia,Gleditsia triacanthos,Stryphnodendron excelsum,Carpinus betulus,Fagus sylvatica,Ulmus glabra,Ulmus laevis,Corylus avellana,Juglans regia,Ginkgo biloba,Catalpa bignonioides,Platanus orientalis,Liriodendron tulipifera,Paulownia tomentosa,Cotinus coggygria,Staphylea pinnata,Sophora japonica,Cedrus atlantica,Taxus baccata,Abies alba,Alnus glutinosa"
            uk.display_values="Дуб звичайний,Дуб скельний,Дуб червоний,Дуб пухнастий,Каштан кінський,Каштан червоний,Каштан їстівний,Клен гостролистий,Явір,Клен польовий,Клен татарський,Клен ясенолистий,Клен японський,Сакура японська,Сакура Йосіно,Сакура яйцевидна,Черешня,Вишня кисла,Черемха,Слива,Абрикос,Персик,Шовковиця біла,Шовковиця чорна,Туя західна,Туя східна,Туя гігантська,Магнолія Соланжа,Магнолія зіркова,Магнолія велика,Липа дрібнолиста,Липа крупнолиста,Липа європейська,Яблуня культурна,Яблуня дика,Яблуня декоративна,Груша культурна,Груша дика,Береза повисла,Береза пухнаста,Ясен звичайний,Ялина європейська,Ялина блакитна,Сосна звичайна,Сосна чорна,Сосна кримська,Модрина європейська,Верба біла,Верба плакуча,Тополя чорна,Осика,Тополя біла,Горобина звичайна,Глід одноматочковий,Акація біла,Гледичія колюча,Сумах оленерогий,Граб звичайний,Бук лісовий,Берест шорсткий,В'яз гладенький,Ліщина,Горіх волоський,Гінкго,Катальпа,Платан східний,Тюльпанове дерево,Павловнія повстяна,Скумпія звичайна,Клекачка периста,Софора японська,Кедр атласький,Тис ягідний,Ялиця біла,Вільха чорна"
            editable="true" />
     <text key="species:uk" text="Species (Ukrainian)" uk.text="Вид (укр)" />
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
     <combo key="taxon" text="Family" uk.text="Родина"
-           values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae,Moraceae,Paulowniaceae,Anacardiaceae,Anacardiaceae"
-           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові,Анакардієві"
+           values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae,Moraceae,Paulowniaceae,Anacardiaceae"
+           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові"
            editable="true"
            delete_if_empty="true" />
 </chunk>
@@ -24,7 +24,7 @@
 <chunk id="shrub_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
            values="Viburnum opulus,Viburnum lantana,Sambucus nigra,Sambucus racemosa,Juniperus communis,Juniperus sabina,Juniperus horizontalis,Syringa vulgaris,Syringa josikaea,Rosa canina,Rosa rugosa,Cornus sanguinea,Cornus mas,Cornus alba,Spiraea japonica,Spiraea vanhouttei,Forsythia x intermedia,Berberis vulgaris,Berberis thunbergii,Cotoneaster horizontalis,Euonymus europaeus,Euonymus fortunei,Hibiscus syriacus,Buxus sempervirens,Ligustrum vulgare,Hydrangea macrophylla,Hydrangea paniculata,Philadelphus coronarius,Weigela florida,Deutzia scabra,Mahonia aquifolium,Rhododendron luteum,Rhododendron ponticum,Vaccinium myrtillus,Vaccinium corymbosum,Ribes nigrum,Ribes rubrum,Ribes uva-crispa,Rubus idaeus,Rubus fruticosus,Lonicera tatarica,Lonicera x americana,Chaenomeles japonica,Symphoricarpos albus,Prunus laurocerasus,Prunus spinosa,Physocarpus opulifolius,Potentilla fruticosa,Kerria japonica,Hippophae rhamnoides,Frangula alnus,Rhamnus cathartica"
-           uk.display_values="Калина звичайна,Калина гордовина,Бузина чорна,Бузина червона,Ялівець звичайний,Ялівець козацький,Ялівець horizontal,Бузок звичайний,Бузок угорський,Шипшина собача,Шипшина зморшкувата,Свидина криваво-червона,Кизил справжній,Свидина біла,Спірея японська,Спірея Вангутта,Форзиція проміжна,Барбарис звичайний,Барбарис Тунберга,Кизильник горизонтальний,Бруслина європейська,Бруслина Форчуна,Гібіскус сирійський,Самшит,Бирючина звичайна,Гортензія садова,Гортензія мітельчата,Чубушник,Вейгела квітуча,Дейція шорстка,Магонія падуболиста,Рододендрон жовтий,Рододендрон понтійський,Чорниця,Лохина високоросла,Смородина чорна,Смородина червона,Аґрус,Малина,Ожина,Жимолость татарська,Жимолость каприфоль,Айва японська,Сніжноягідник білий,Лавровишня,Терен,Пухироплідник калинолистий,Перстач кущовий,Керія японська,Обліпиха крушиновидна,Крушина ламка,Жостір проносний"
+           uk.display_values="Калина звичайна,Калина гордовина,Бузина чорна,Бузина червона,Ялівець звичайний,Ялівець козацький,Ялівець горизонтальний,Бузок звичайний,Бузок угорський,Шипшина собача,Шипшина зморшкувата,Свидина криваво-червона,Кизил справжній,Свидина біла,Спірея японська,Спірея Вангутта,Форзиція проміжна,Барбарис звичайний,Барбарис Тунберга,Кизильник горизонтальний,Бруслина європейська,Бруслина Форчуна,Гібіскус сирійський,Самшит,Бирючина звичайна,Гортензія садова,Гортензія мітельчата,Чубушник,Вейгела квітуча,Дейція шорстка,Магонія падуболиста,Рододендрон жовтий,Рододендрон понтійський,Чорниця,Лохина високоросла,Смородина чорна,Смородина червона,Аґрус,Малина,Ожина,Жимолость татарська,Жимолость каприфоль,Айва японська,Сніжноягідник білий,Лавровишня,Терен,Пухироплідник калинолистий,Перстач кущовий,Керія японська,Обліпиха крушиновидна,Крушина ламка,Жостір проносний"
            editable="true" />
     <text key="species:uk" text="Species (Ukrainian)" uk.text="Вид (укр)" />
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
@@ -81,9 +81,125 @@
 
 <group name="European Trees and Shrubs" uk.name="Європейські дерева та кущі" icon="presets/natural/tree.svg">
 
-    <group name="Trees" uk.name="Дерева" icon="presets/natural/tree.svg">
+    <group name="Quick Presets (Top Species)" uk.name="Швидкі заготовки (Часті види)" icon="presets/natural/tree.svg">
+        <item name="Oak (Common)" uk.name="Дуб звичайний" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Quercus robur" />
+            <key key="species:uk" value="Дуб звичайний" />
+            <key key="species:en" value="English Oak" />
+            <key key="taxon" value="Fagaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Horse Chestnut" uk.name="Каштан кінський" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Aesculus hippocastanum" />
+            <key key="species:uk" value="Каштан кінський" />
+            <key key="species:en" value="Horse-chestnut" />
+            <key key="taxon" value="Sapindaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Norway Maple" uk.name="Клен гостролистий" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Acer platanoides" />
+            <key key="species:uk" value="Клен гостролистий" />
+            <key key="species:en" value="Norway Maple" />
+            <key key="taxon" value="Sapindaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Small-leaved Linden" uk.name="Липа дрібнолиста" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Tilia cordata" />
+            <key key="species:uk" value="Липа дрібнолиста" />
+            <key key="species:en" value="Small-leaved Lime" />
+            <key key="taxon" value="Malvaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Silver Birch" uk.name="Береза повисла" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Betula pendula" />
+            <key key="species:uk" value="Береза повисла" />
+            <key key="species:en" value="Silver Birch" />
+            <key key="taxon" value="Betulaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Scots Pine" uk.name="Сосна звичайна" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Pinus sylvestris" />
+            <key key="species:uk" value="Сосна звичайна" />
+            <key key="species:en" value="Scots Pine" />
+            <key key="taxon" value="Pinaceae" />
+            <key key="leaf_type" value="needleleaved" />
+            <key key="leaf_cycle" value="evergreen" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <item name="Norway Spruce" uk.name="Ялина європейська" type="node" icon="presets/natural/tree.svg">
+            <key key="natural" value="tree" />
+            <key key="species" value="Picea abies" />
+            <key key="species:uk" value="Ялина європейська" />
+            <key key="species:en" value="Norway Spruce" />
+            <key key="taxon" value="Pinaceae" />
+            <key key="leaf_type" value="needleleaved" />
+            <key key="leaf_cycle" value="evergreen" />
+            <reference ref="dimensions" />
+            <reference ref="status_and_condition" />
+        </item>
+        <space/>
+        <item name="Guelder Rose (Shrub)" uk.name="Калина звичайна (Кущ)" type="node" icon="presets/natural/scrub.svg">
+            <key key="natural" value="shrub" />
+            <key key="species" value="Viburnum opulus" />
+            <key key="species:uk" value="Калина звичайна" />
+            <key key="species:en" value="Guelder Rose" />
+            <key key="taxon" value="Viburnaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+        </item>
+        <item name="Common Lilac (Shrub)" uk.name="Бузок звичайний (Кущ)" type="node" icon="presets/natural/scrub.svg">
+            <key key="natural" value="shrub" />
+            <key key="species" value="Syringa vulgaris" />
+            <key key="species:uk" value="Бузок звичайний" />
+            <key key="species:en" value="Common Lilac" />
+            <key key="taxon" value="Oleaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+        </item>
+        <item name="Sweet Mock-orange" uk.name="Чубушник звичайний (Жасмин)" type="node" icon="presets/natural/scrub.svg">
+            <key key="natural" value="shrub" />
+            <key key="species" value="Philadelphus coronarius" />
+            <key key="species:uk" value="Чубушник" />
+            <key key="species:en" value="Sweet Mock-orange" />
+            <key key="taxon" value="Hydrangeaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+        </item>
+        <item name="Privet Hedge (Way)" uk.name="Жива огорожа з бирючини" type="way" icon="presets/natural/scrub.svg">
+            <key key="barrier" value="hedge" />
+            <key key="species" value="Ligustrum vulgare" />
+            <key key="species:uk" value="Бирючина звичайна" />
+            <key key="species:en" value="Wild Privet" />
+            <key key="taxon" value="Oleaceae" />
+            <key key="leaf_type" value="broadleaved" />
+            <key key="leaf_cycle" value="deciduous" />
+        </item>
+    </group>
 
-        <item name="Tree" type="node" icon="presets/natural/tree.svg" preset_name_label="true">
+    <group name="Trees (Advanced Setup)" uk.name="Дерева (Повне налаштування)" icon="presets/natural/tree.svg">
+        <item name="Custom Tree" uk.name="Довільне дерево" type="node" icon="presets/natural/tree.svg" preset_name_label="true">
             <label text="Tree" uk.text="Дерево" />
             <key key="natural" value="tree" />
             <space/>
@@ -102,7 +218,6 @@
             <label text="Metadata" uk.text="Метадані" />
             <reference ref="metadata" />
         </item>
-
         <item name="Tree row" type="way" icon="presets/natural/tree_row.svg" preset_name_label="true">
             <label text="Tree row" uk.text="Ряд дерев" />
             <key key="natural" value="tree_row" />
@@ -113,12 +228,10 @@
             <space/>
             <text key="survey:date" text="Survey date" uk.text="Дата обстеження" />
         </item>
-
     </group>
 
-    <group name="Shrubs" uk.name="Кущі" icon="presets/natural/scrub.svg">
-
-        <item name="Shrub" type="node" icon="presets/natural/scrub.svg" preset_name_label="true">
+    <group name="Shrubs (Advanced Setup)" uk.name="Кущі (Повне налаштування)" icon="presets/natural/scrub.svg">
+        <item name="Custom Shrub" uk.name="Довільний кущ" type="node" icon="presets/natural/scrub.svg" preset_name_label="true">
             <label text="Shrub" uk.text="Кущ" />
             <key key="natural" value="shrub" />
             <space/>
@@ -145,7 +258,6 @@
             <label text="Metadata" uk.text="Метадані" />
             <reference ref="metadata" />
         </item>
-
         <item name="Hedge" type="way" icon="presets/natural/scrub.svg" preset_name_label="true">
             <label text="Hedge" uk.text="Жива огорожа" />
             <key key="barrier" value="hedge" />
@@ -157,9 +269,7 @@
             <space/>
             <text key="survey:date" text="Survey date" uk.text="Дата обстеження" />
         </item>
-
     </group>
 
 </group>
-
 </presets>

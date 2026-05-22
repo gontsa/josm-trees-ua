@@ -7,6 +7,7 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - 70+ tree species common in Ukraine (oak, chestnut, maple, sakura, linden, magnolia, thuja, etc.)
 - 50+ shrub species (viburnum, juniper, lilac, rose, etc.)
 - Bilingual interface (Ukrainian + English)
+- **Quick Presets**: Single-click setup for top common species (Oak, Pine, Linden, Shrub Rose, etc.) with automatic background auto-fill for `species:uk`, `species:en`, `taxon`, `leaf_type`, and `leaf_cycle`.
 - Taxonomy support: species, family (taxon), leaf type and cycle
 - Flower colour for ornamental trees
 - Survey date and reference number for inventory work
@@ -17,23 +18,34 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - Понад 70 видів дерев, поширених в Україні (дуб, каштан, клен, сакура, липа, магнолія, туя тощо)
 - Понад 50 видів кущів (калина, ялівець, бузок, шипшина тощо)
 - Двомовний інтерфейс (українська + англійська)
+- **Швидкі заготовки**: Клік в один дотик для найпопулярніших видів (дуб, сосна, липа, кущ бузку тощо) з автоматичним фоновим заповненням тегів `species:uk`, `species:en`, `taxon`, `leaf_type` та `leaf_cycle`.
 - Підтримка таксономії: вид, родина (taxon), тип і цикл листя
 - Колір цвітіння для декоративних дерев
 - Дата обстеження та інвентарний номер для облікових робіт
 - Прапорець охорони для пам'яток природи
 - Заготовки для рядів дерев та живих огорож (тип way)
 
-## What's new in v1.2 / Що нового у v1.2
-- **Trees**: Added *Alnus glutinosa*, *Ulmus laevis*, *Pinus nigra subsp. pallasiana*, *Quercus pubescens*, *Morus* (alba/nigra), *Gleditsia triacanthos*, *Stryphnodendron excelsum*, *Sophora japonica*, *Paulownia tomentosa*. Fixed "Берізка" to "Береза" and "Рябина" to "Горобина". Updated "Дуб черешчатий" to "Дуб звичайний".
-- **Shrubs**: Added *Corylus avellana*, *Frangula alnus*, *Rhamnus cathartica*, *Physocarpus opulifolius*, *Potentilla fruticosa*, *Kerria japonica*, *Vaccinium corymbosum*, *Rubus fruticosus*, *Hippophae rhamnoides*.
-- **Taxonomy**: Added new families (*Adoxaceae*, *Elaeagnaceae*, *Paulowniaceae*, etc.) to the `taxon` field.
-- **Дерева**: Додано *Вільху чорну*, *В'яз гладенький*, *Сосну кримську*, *Дуб пухнастий*, *Шовковицю (білу/чорну)*, *Гледичію*, *Сумах оленерогий*, *Софору японську*, *Павловнію*. Русизм «Рябина» виправлено на «Горобина», «Берізка» на «Береза». Назву «Дуб черешчатий» змінено на більш уживану «Дуб звичайний».
-- **Кущі**: Додано *Ліщину*, *Крушину ламку*, *Жостір*, *Пухироплідник*, *Перстач кущовий*, *Керію*, *Лохину високорослу*, *Ожину*, *Обліпиху*.
-- **Таксономія**: Розширено список родин у полі `taxon` (*Шовковицеві*, *Павловнієві*, *Лохові*, *Жостерові* тощо).
+
+## Version History / Історія версій
+
+### v1.3
+- **En**: Implemented **Quick Presets** for top-11 most common species (Oak, Chestnut, Maple, Linden, Birch, Pine, Spruce, Guelder Rose, Lilac, Mock-orange, and Privet Hedge) with automated background tagging for standard attributes (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`).
+- **Uk**: Реалізовано **Швидкі заготовки** для 11 найпопулярніших видів (Дуб, Каштан, Клен, Липа, Береза, Сосна, Ялина, Калина, Бузок, Чубушник та Огорожа з бирючини) з автоматичним фоновим заповненням супутніх тегів (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`).
+
+### v1.2
+- **En (Trees)**: Added 9 new species (*Alnus glutinosa*, *Ulmus laevis*, *Pinus nigra subsp. pallasiana*, *Quercus pubescens*, *Morus alba/nigra*, *Gleditsia triacanthos*, *Stryphnodendron excelsum*, *Sophora japonica*, *Paulownia tomentosa*). Fixed botanical names: "Берізка" -> "Береза", "Рябина" -> "Горобина". Updated "Дуб черешчатий" to "Дуб звичайний".
+- **En (Shrubs)**: Added 9 new species (*Corylus avellana*, *Frangula alnus*, *Rhamnus cathartica*, *Physocarpus opulifolius*, *Potentilla fruticosa*, *Kerria japonica*, *Vaccinium corymbosum*, *Rubus fruticosus*, *Hippophae rhamnoides*). Extended `taxon` family list.
+- **Uk (Дерева)**: Додано 9 нових видів (*Вільха чорна*, *В'яз гладенький*, *Сосна кримська*, *Дуб пухнастий*, *Шовковиця біла/чорна*, *Гледичія*, *Сумах оленерогий*, *Софору японська*, *Павловнія*). Виправлено термінологію: русизм «Рябина» замінено на «Горобина», «Берізка» на «Береза». Назву «Дуб черешчатий» змінено на більш уживану «Дуб звичайний».
+- **Uk (Кущі)**: Додано 9 нових видів (*Ліщина*, *Крушина ламку*, *Жостір*, *Пухироплідник*, *Перстач кущовий*, *Керія*, *Лохина високоросла*, *Ожина*, *Обліпиха*). Розширено перелік родин у полі `taxon`.
+
+### v1.1 (Base Draft)
+- **En**: Initial release with core European tree and shrub species. Bilingual mapping schema setup for inventory tracking (height, circumference, health condition, and metadata).
+- **Uk**: Базовий реліз, що включає основний перелік європейських дерев та кущів. Налаштовано двомовну схему мапінгу для проведення облікових та інвентаризаційних робіт (висота, обхват стовбура, стан здоров'я дерева та метадані).
 
 ## TODO / Заплановано
 0. Add icons for each species / Додати іконки для кожного виду.
-1. Add quick presets for top species with auto-fill of `species:uk`, `species:en`, `taxon` / Додати швидкі заготовки для топових видів з автозаповненням.
+1. Add more shrub species (specific cultivars) / Додати більше видів кущів (конкретні сорти).
+
 
 ## Howto Install JOSM Presets
 **What should be done before installation in the testing mode** -> [Wiki](https://github.com/gontsa/josm-trees-ua/wiki)
