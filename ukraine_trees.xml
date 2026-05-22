@@ -159,7 +159,7 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <space/>
+
         <item name="Guelder Rose (Shrub)" uk.name="Калина звичайна (Кущ)" type="node" icon="presets/natural/scrub.svg">
             <key key="natural" value="shrub" />
             <key key="species" value="Viburnum opulus" />
