@@ -5,7 +5,7 @@
          uk.description="Європейські дерева та кущі"
          shortdescription="Trees and Shrubs"
          uk.shortdescription="Дерева та кущі"
-         version="1.3.1">
+         version="1.3">
 
 <chunk id="tree_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
@@ -16,7 +16,7 @@
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
     <combo key="taxon" text="Family" uk.text="Родина"
            values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae,Moraceae,Paulowniaceae,Anacardiaceae"
-           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові"
+           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Gінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові"
            editable="true"
            delete_if_empty="true" />
 </chunk>
@@ -159,9 +159,6 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-
-        <separator/>
-
         <item name="Guelder Rose (Shrub)" uk.name="Калина звичайна (Кущ)" type="node" icon="presets/natural/scrub.svg">
             <key key="natural" value="shrub" />
             <key key="species" value="Viburnum opulus" />
@@ -255,23 +252,4 @@
             <combo key="condition" text="Condition" uk.text="Стан"
                    values="healthy,damaged,diseased,dead"
                    uk.display_values="Здорове,Пошкоджене,Хворе,Мертве"
-                   delete_if_empty="true" />
-            <space/>
-            <label text="Metadata" uk.text="Метадані" />
-            <reference ref="metadata" />
-        </item>
-        <item name="Hedge" type="way" icon="presets/natural/scrub.svg" preset_name_label="true">
-            <label text="Hedge" uk.text="Жива огорожа" />
-            <key key="barrier" value="hedge" />
-            <space/>
-            <reference ref="shrub_species_combo" />
-            <space/>
-            <text key="height" text="Height (m)" uk.text="Висота (м)" />
-            <reference ref="biology" />
-            <space/>
-            <text key="survey:date" text="Survey date" uk.text="Дата обстеження" />
-        </item>
-    </group>
-
-</group>
-</presets>
+                   delete_if_empty="true
