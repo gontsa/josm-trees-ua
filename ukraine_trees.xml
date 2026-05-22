@@ -16,7 +16,7 @@
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
     <combo key="taxon" text="Family" uk.text="Родина"
            values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae,Moraceae,Paulowniaceae,Anacardiaceae"
-           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Gінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові"
+           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові"
            editable="true"
            delete_if_empty="true" />
 </chunk>
@@ -82,7 +82,8 @@
 <group name="European Trees and Shrubs" uk.name="Європейські дерева та кущі" icon="presets/natural/tree.svg">
 
     <group name="Quick Presets (Top Species)" uk.name="Швидкі заготовки (Часті види)" icon="presets/natural/tree.svg">
-        <item name="Oak (Common)" uk.name="Дуб звичайний" type="node" icon="presets/natural/tree.svg">
+        <item name="Oak (Common)" type="node" icon="presets/natural/tree.svg">
+            <label text="Oak (Common)" uk.text="Дуб звичайний" />
             <key key="natural" value="tree" />
             <key key="species" value="Quercus robur" />
             <key key="species:uk" value="Дуб звичайний" />
@@ -93,7 +94,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Horse Chestnut" uk.name="Каштан кінський" type="node" icon="presets/natural/tree.svg">
+        <item name="Horse Chestnut" type="node" icon="presets/natural/tree.svg">
+            <label text="Horse Chestnut" uk.text="Каштан кінський" />
             <key key="natural" value="tree" />
             <key key="species" value="Aesculus hippocastanum" />
             <key key="species:uk" value="Каштан кінський" />
@@ -104,7 +106,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Norway Maple" uk.name="Клен гостролистий" type="node" icon="presets/natural/tree.svg">
+        <item name="Norway Maple" type="node" icon="presets/natural/tree.svg">
+            <label text="Norway Maple" uk.text="Клен гостролистий" />
             <key key="natural" value="tree" />
             <key key="species" value="Acer platanoides" />
             <key key="species:uk" value="Клен гостролистий" />
@@ -115,7 +118,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Small-leaved Linden" uk.name="Липа дрібнолиста" type="node" icon="presets/natural/tree.svg">
+        <item name="Small-leaved Linden" type="node" icon="presets/natural/tree.svg">
+            <label text="Small-leaved Linden" uk.text="Липа дрібнолиста" />
             <key key="natural" value="tree" />
             <key key="species" value="Tilia cordata" />
             <key key="species:uk" value="Липа дрібнолиста" />
@@ -126,7 +130,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Silver Birch" uk.name="Береза повисла" type="node" icon="presets/natural/tree.svg">
+        <item name="Silver Birch" type="node" icon="presets/natural/tree.svg">
+            <label text="Silver Birch" uk.text="Береза повисла" />
             <key key="natural" value="tree" />
             <key key="species" value="Betula pendula" />
             <key key="species:uk" value="Береза повисла" />
@@ -137,7 +142,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Scots Pine" uk.name="Сосна звичайна" type="node" icon="presets/natural/tree.svg">
+        <item name="Scots Pine" type="node" icon="presets/natural/tree.svg">
+            <label text="Scots Pine" uk.text="Сосна звичайна" />
             <key key="natural" value="tree" />
             <key key="species" value="Pinus sylvestris" />
             <key key="species:uk" value="Сосна звичайна" />
@@ -148,7 +154,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Norway Spruce" uk.name="Ялина європейська" type="node" icon="presets/natural/tree.svg">
+        <item name="Norway Spruce" type="node" icon="presets/natural/tree.svg">
+            <label text="Norway Spruce" uk.text="Ялина європейська" />
             <key key="natural" value="tree" />
             <key key="species" value="Picea abies" />
             <key key="species:uk" value="Ялина європейська" />
@@ -159,7 +166,8 @@
             <reference ref="dimensions" />
             <reference ref="status_and_condition" />
         </item>
-        <item name="Guelder Rose (Shrub)" uk.name="Калина звичайна (Кущ)" type="node" icon="presets/natural/scrub.svg">
+        <item name="Guelder Rose (Shrub)" type="node" icon="presets/natural/scrub.svg">
+            <label text="Guelder Rose (Shrub)" uk.text="Калина звичайна (Кущ)" />
             <key key="natural" value="shrub" />
             <key key="species" value="Viburnum opulus" />
             <key key="species:uk" value="Калина звичайна" />
@@ -168,7 +176,8 @@
             <key key="leaf_type" value="broadleaved" />
             <key key="leaf_cycle" value="deciduous" />
         </item>
-        <item name="Common Lilac (Shrub)" uk.name="Бузок звичайний (Кущ)" type="node" icon="presets/natural/scrub.svg">
+        <item name="Common Lilac (Shrub)" type="node" icon="presets/natural/scrub.svg">
+            <label text="Common Lilac (Shrub)" uk.text="Бузок звичайний (Кущ)" />
             <key key="natural" value="shrub" />
             <key key="species" value="Syringa vulgaris" />
             <key key="species:uk" value="Бузок звичайний" />
@@ -177,7 +186,8 @@
             <key key="leaf_type" value="broadleaved" />
             <key key="leaf_cycle" value="deciduous" />
         </item>
-        <item name="Sweet Mock-orange" uk.name="Чубушник звичайний (Жасмин)" type="node" icon="presets/natural/scrub.svg">
+        <item name="Sweet Mock-orange" type="node" icon="presets/natural/scrub.svg">
+            <label text="Sweet Mock-orange" uk.text="Чубушник звичайний (Жасмин)" />
             <key key="natural" value="shrub" />
             <key key="species" value="Philadelphus coronarius" />
             <key key="species:uk" value="Чубушник" />
@@ -186,9 +196,10 @@
             <key key="leaf_type" value="broadleaved" />
             <key key="leaf_cycle" value="deciduous" />
         </item>
-        <item name="Privet Hedge (Way)" uk.name="Жива огорожа з бирючини" type="way" icon="presets/natural/scrub.svg">
+        <item name="Privet Hedge (Way)" type="way" icon="presets/natural/scrub.svg">
+            <label text="Privet Hedge (Way)" uk.text="Жива огорожа з бирючини" />
             <key key="barrier" value="hedge" />
-            <key key="species" value="Ligustrum vulgare" />
+            <key key="species" value="Ligustrum vulgaris" />
             <key key="species:uk" value="Бирючина звичайна" />
             <key key="species:en" value="Wild Privet" />
             <key key="taxon" value="Oleaceae" />
@@ -198,7 +209,7 @@
     </group>
 
     <group name="Trees (Advanced Setup)" uk.name="Дерева (Повне налаштування)" icon="presets/natural/tree.svg">
-        <item name="Custom Tree" uk.name="Довільне дерево" type="node" icon="presets/natural/tree.svg" preset_name_label="true">
+        <item name="Custom Tree" type="node" icon="presets/natural/tree.svg" preset_name_label="true">
             <label text="Tree" uk.text="Дерево" />
             <key key="natural" value="tree" />
             <space/>
@@ -230,7 +241,7 @@
     </group>
 
     <group name="Shrubs (Advanced Setup)" uk.name="Кущі (Повне налаштування)" icon="presets/natural/scrub.svg">
-        <item name="Custom Shrub" uk.name="Довільний кущ" type="node" icon="presets/natural/scrub.svg" preset_name_label="true">
+        <item name="Custom Shrub" type="node" icon="presets/natural/scrub.svg" preset_name_label="true">
             <label text="Shrub" uk.text="Кущ" />
             <key key="natural" value="shrub" />
             <space/>
@@ -252,4 +263,23 @@
             <combo key="condition" text="Condition" uk.text="Стан"
                    values="healthy,damaged,diseased,dead"
                    uk.display_values="Здорове,Пошкоджене,Хворе,Мертве"
-                   delete_if_empty="true
+                   delete_if_empty="true" />
+            <space/>
+            <label text="Metadata" uk.text="Метадані" />
+            <reference ref="metadata" />
+        </item>
+        <item name="Hedge" type="way" icon="presets/natural/scrub.svg" preset_name_label="true">
+            <label text="Hedge" uk.text="Жива огорожа" />
+            <key key="barrier" value="hedge" />
+            <space/>
+            <reference ref="shrub_species_combo" />
+            <space/>
+            <text key="height" text="Height (m)" uk.text="Висота (м)" />
+            <reference ref="biology" />
+            <space/>
+            <text key="survey:date" text="Survey date" uk.text="Дата обстеження" />
+        </item>
+    </group>
+
+</group>
+</presets>
