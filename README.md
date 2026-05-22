@@ -48,13 +48,13 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 ## Howto Install JOSM Presets
 **What should be done before installation in the testing mode** -> [Wiki](https://github.com/gontsa/josm-trees-ua/wiki)
 
-Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/master/ukraine_trees.xml` in JOSM editor.
+Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/refs/heads/main/ukraine_trees.xml` in JOSM editor.
 
 **Uk**: *Заготовки* -> *Preset preferences* -> *Активні заготовки* «+»
 **En**: *Presets* -> *Preset preferences* -> *Active presets* «+»
 
 ## Howto Install Vespucci Preset
-Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/master/ukraine_trees.xml` in Vespucci editor.
+Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/refs/heads/main/ukraine_trees.xml` in Vespucci editor.
 
 **Uk**: *Керування заготовками* -> *Додати заготовку* -> Вставити URL та назву заготовки
 **En**: *Managing presets* -> *Add preset* -> *Active presets* «+» Paste URL for the file containing the preset and a name
