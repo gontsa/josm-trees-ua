@@ -1,6 +1,6 @@
 # josm-trees-ua
 JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
-### v1.2
+### v1.3
 [Дерева в OpenStreetMap](https://wiki.openstreetmap.org/wiki/Uk:Tag:natural%3Dtree)
 
 ## Features
@@ -25,12 +25,11 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - Прапорець охорони для пам'яток природи
 - Заготовки для рядів дерев та живих огорож (тип way)
 
-
 ## Version History / Історія версій
 
 ### v1.3
-- **En**: Implemented **Quick Presets** for top-11 most common species (Oak, Chestnut, Maple, Linden, Birch, Pine, Spruce, Guelder Rose, Lilac, Mock-orange, and Privet Hedge) with automated background tagging for standard attributes (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`).
-- **Uk**: Реалізовано **Швидкі заготовки** для 11 найпопулярніших видів (Дуб, Каштан, Клен, Липа, Береза, Сосна, Ялина, Калина, Бузок, Чубушник та Огорожа з бирючини) з автоматичним фоновим заповненням супутніх тегів (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`).
+- **En**: Implemented **Quick Presets** for top-11 most common species (Oak, Chestnut, Maple, Linden, Birch, Pine, Spruce, Guelder Rose, Lilac, Mock-orange, and Privet Hedge) with automated background tagging for standard attributes (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`). Fixed compilation errors related to incorrect schema tag placement.
+- **Uk**: Реалізовано **Швидкі заготовки** для 11 найпопулярніших видів (Дуб, Каштан, Клен, Липа, Береза, Сосна, Ялина, Калина, Бузок, Чубушник та Огорожа з бирючини) з автоматичним фоновим заповненням супутніх тегів (`species:uk`, `species:en`, `taxon`, `leaf_type`, `leaf_cycle`). Виправлено помилки компіляції схеми через некоректне розміщення елементів.
 
 ### v1.2
 - **En (Trees)**: Added 9 new species (*Alnus glutinosa*, *Ulmus laevis*, *Pinus nigra subsp. pallasiana*, *Quercus pubescens*, *Morus alba/nigra*, *Gleditsia triacanthos*, *Stryphnodendron excelsum*, *Sophora japonica*, *Paulownia tomentosa*). Fixed botanical names: "Берізка" -> "Береза", "Рябина" -> "Горобина". Updated "Дуб черешчатий" to "Дуб звичайний".
@@ -40,12 +39,11 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 
 ### v1.1 (Base Draft)
 - **En**: Initial release with core European tree and shrub species. Bilingual mapping schema setup for inventory tracking (height, circumference, health condition, and metadata).
-- **Uk**: Базовий реліз, що включає основний перелік європейських дерев та кущів. Налаштовано двомовну схему мапінгу для проведення облікових та інвентаризаційних робіт (висота, обхват стовбура, стан здоров'я дерева та метадані).
+- **Uk**: Базовий реліз, що включає основний перелік європейських дерев та кущі. Налаштовано двомовну схему мапінгу для проведення облікових та інвентаризаційних робіт (висота, обхват стовбура, стан здоров'я дерева та метадані).
 
 ## TODO / Заплановано
 0. Add icons for each species / Додати іконки для кожного виду.
 1. Add more shrub species (specific cultivars) / Додати більше видів кущів (конкретні сорти).
-
 
 ## Howto Install JOSM Presets
 **What should be done before installation in the testing mode** -> [Wiki](https://github.com/gontsa/josm-trees-ua/wiki)
