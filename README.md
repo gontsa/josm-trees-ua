@@ -25,6 +25,13 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - Прапорець охорони для пам'яток природи
 - Заготовки для рядів дерев та живих огорож (тип way)
 
+## 📖 Documentation & Wiki / Документація та База знань
+
+- **English**: For detailed instructions on tags structure, taxonomy fields mapping, and advanced mobile mapping, please visit our [Project Wiki](https://github.com/gontsa/josm-trees-ua/wiki).
+- **Українська**: Детальний опис структури тегів, правил заповнення біологічних параметрів (висота, обхват) та нюанси польового мапінгу зі смартфона дивіться на сторінках нашої [Wiki проєкту](https://github.com/gontsa/josm-trees-ua/wiki).
+
+> 📱 **Vespucci Users / Користувачам Vespucci:** Before starting field surveys, make sure to read the configuration guide to prevent tag conflicts / Перед виїздом «в поля» обов'язково ознайомтеся з інструкцією налаштування, щоб уникнути конфліктів із дефолтними тегами додатка.
+
 ## Version History / Історія версій
 
 ### v1.3
