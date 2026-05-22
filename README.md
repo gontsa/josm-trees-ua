@@ -1,11 +1,11 @@
 # josm-trees-ua
 JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
-### v1.1 (draft version)
+### v1.2
 [Дерева в OpenStreetMap](https://wiki.openstreetmap.org/wiki/Uk:Tag:natural%3Dtree)
 
 ## Features
-- 60+ tree species common in Ukraine (oak, chestnut, maple, sakura, linden, magnolia, thuja, etc.)
-- 40+ shrub species (viburnum, juniper, lilac, rose, etc.)
+- 70+ tree species common in Ukraine (oak, chestnut, maple, sakura, linden, magnolia, thuja, etc.)
+- 50+ shrub species (viburnum, juniper, lilac, rose, etc.)
 - Bilingual interface (Ukrainian + English)
 - Taxonomy support: species, family (taxon), leaf type and cycle
 - Flower colour for ornamental trees
@@ -14,8 +14,8 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - Tree row and hedge presets (way type)
 
 ## Можливості
-- Понад 60 видів дерев, поширених в Україні (дуб, каштан, клен, сакура, липа, магнолія, туя тощо)
-- Понад 40 видів кущів (калина, ялівець, бузок, шипшина тощо)
+- Понад 70 видів дерев, поширених в Україні (дуб, каштан, клен, сакура, липа, магнолія, туя тощо)
+- Понад 50 видів кущів (калина, ялівець, бузок, шипшина тощо)
 - Двомовний інтерфейс (українська + англійська)
 - Підтримка таксономії: вид, родина (taxon), тип і цикл листя
 - Колір цвітіння для декоративних дерев
@@ -23,17 +23,17 @@ JOSM Preset for mapping European trees and shrubs in Ukraine on OpenStreetMap
 - Прапорець охорони для пам'яток природи
 - Заготовки для рядів дерев та живих огорож (тип way)
 
-## TODO
-0. Add icons for each species.
-1. Add quick presets for top species with auto-fill of `species:uk`, `species:en`, `taxon`.
-2. Add more shrub species (specific cultivars).
-3. Add Vespucci-specific compatibility tests.
+## What's new in v1.2 / Що нового у v1.2
+- **Trees**: Added *Alnus glutinosa*, *Ulmus laevis*, *Pinus nigra subsp. pallasiana*, *Quercus pubescens*, *Morus* (alba/nigra), *Gleditsia triacanthos*, *Stryphnodendron excelsum*, *Sophora japonica*, *Paulownia tomentosa*. Fixed "Берізка" to "Береза" and "Рябина" to "Горобина". Updated "Дуб черешчатий" to "Дуб звичайний".
+- **Shrubs**: Added *Corylus avellana*, *Frangula alnus*, *Rhamnus cathartica*, *Physocarpus opulifolius*, *Potentilla fruticosa*, *Kerria japonica*, *Vaccinium corymbosum*, *Rubus fruticosus*, *Hippophae rhamnoides*.
+- **Taxonomy**: Added new families (*Adoxaceae*, *Elaeagnaceae*, *Paulowniaceae*, etc.) to the `taxon` field.
+- **Дерева**: Додано *Вільху чорну*, *В'яз гладенький*, *Сосну кримську*, *Дуб пухнастий*, *Шовковицю (білу/чорну)*, *Гледичію*, *Сумах оленерогий*, *Софору японську*, *Павловнію*. Русизм «Рябина» виправлено на «Горобина», «Берізка» на «Береза». Назву «Дуб черешчатий» змінено на більш уживану «Дуб звичайний».
+- **Кущі**: Додано *Ліщину*, *Крушину ламку*, *Жостір*, *Пухироплідник*, *Перстач кущовий*, *Керію*, *Лохину високорослу*, *Ожину*, *Обліпиху*.
+- **Таксономія**: Розширено список родин у полі `taxon` (*Шовковицеві*, *Павловнієві*, *Лохові*, *Жостерові* тощо).
 
-## Заплановано
-0. Додати іконки для кожного виду.
-1. Додати швидкі заготовки для топових видів з автозаповненням `species:uk`, `species:en`, `taxon`.
-2. Додати більше видів кущів (конкретні сорти).
-3. Перевірити сумісність з Vespucci.
+## TODO / Заплановано
+0. Add icons for each species / Додати іконки для кожного виду.
+1. Add quick presets for top species with auto-fill of `species:uk`, `species:en`, `taxon` / Додати швидкі заготовки для топових видів з автозаповненням.
 
 ## Howto Install JOSM Presets
 **What should be done before installation in the testing mode** -> [Wiki](https://github.com/gontsa/josm-trees-ua/wiki)
@@ -49,13 +49,17 @@ Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/master/ukraine_trees
 **Uk**: *Керування заготовками* -> *Додати заготовку* -> Вставити URL та назву заготовки
 **En**: *Managing presets* -> *Add preset* -> *Active presets* «+» Paste URL for the file containing the preset and a name
 
+⚠️ **Important Note for Vespucci Users / Важливе зауваження для користувачів Vespucci:**
+- **Uk**: Щоб цей пресет коректно підтягувався для точок (`natural=tree` та `natural=shrub`), у налаштуваннях Vespucci необхідно **вимкнути стандартний (дефолтний) пресет**, інакше застосовуватимуться вбудовані базові теги редактора. (*Налаштування* -> *Інструменти мапінгу* -> *Заготовки тегів* -> Вимкнути *Вбудовані заготовки*).
+- **En**: For this preset to work correctly for nodes (`natural=tree` and `natural=shrub`), you must **disable the default preset** in Vespucci settings. Otherwise, the editor's built-in basic tags will override it. (*Preferences* -> *Mapping tools* -> *Tag presets* -> Uncheck *Built-in presets*).
+
 ## Tags used
 | Key | Values | Description |
 |---|---|---|
 | `natural` | `tree`, `shrub`, `tree_row` | Object type |
 | `barrier` | `hedge` | For living fences |
 | `species` | Latin name | e.g. `Quercus robur` |
-| `species:uk` | Ukrainian name | e.g. `Дуб черешчатий` |
+| `species:uk` | Ukrainian name | e.g. `Дуб звичайний` |
 | `species:en` | English name | e.g. `English Oak` |
 | `taxon` | Family | e.g. `Fagaceae`, `Rosaceae` |
 | `leaf_type` | `broadleaved`, `needleleaved` | |

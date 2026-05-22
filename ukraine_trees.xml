@@ -5,33 +5,32 @@
          uk.description="Європейські дерева та кущі"
          shortdescription="Trees and Shrubs"
          uk.shortdescription="Дерева та кущі"
-         version="1.1">
+         version="1.2">
 
-<!-- ========== CHUNKS ========== -->
 <chunk id="tree_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
-           values="Quercus robur,Quercus petraea,Quercus rubra,Aesculus hippocastanum,Aesculus carnea,Castanea sativa,Acer platanoides,Acer pseudoplatanus,Acer campestre,Acer tataricum,Acer negundo,Acer palmatum,Prunus serrulata,Prunus yedoensis,Prunus subhirtella,Prunus avium,Prunus cerasus,Prunus padus,Prunus domestica,Prunus armeniaca,Prunus persica,Thuja occidentalis,Thuja orientalis,Thuja plicata,Magnolia soulangeana,Magnolia stellata,Magnolia grandiflora,Tilia cordata,Tilia platyphyllos,Tilia europaea,Malus domestica,Malus sylvestris,Malus floribunda,Pyrus communis,Pyrus pyraster,Betula pendula,Betula pubescens,Fraxinus excelsior,Picea abies,Picea pungens,Pinus sylvestris,Pinus nigra,Larix decidua,Salix alba,Salix babylonica,Populus nigra,Populus tremula,Populus alba,Sorbus aucuparia,Crataegus monogyna,Robinia pseudoacacia,Carpinus betulus,Fagus sylvatica,Ulmus glabra,Corylus avellana,Juglans regia,Ginkgo biloba,Catalpa bignonioides,Platanus orientalis,Liriodendron tulipifera,Cedrus atlantica,Taxus baccata,Abies alba"
-           uk.display_values="Дуб черешчатий,Дуб скельний,Дуб червоний,Каштан кінський,Каштан червоний,Каштан їстівний,Клен гостролистий,Явір,Клен польовий,Клен татарський,Клен ясенолистий,Клен японський,Сакура японська,Сакура Йосіно,Сакура яйцевидна,Черешня,Вишня кисла,Черемха,Слива,Абрикос,Персик,Туя західна,Туя східна,Туя гігантська,Магнолія Соланжа,Магнолія зіркова,Магнолія велика,Липа дрібнолиста,Липа крупнолиста,Липа європейська,Яблуня культурна,Яблуня дика,Яблуня декоративна,Груша культурна,Груша дика,Берізка повисла,Берізка пухнаста,Ясен звичайний,Ялина європейська,Ялина блакитна,Сосна звичайна,Сосна чорна,Модрина європейська,Верба біла,Верба плакуча,Тополя чорна,Осика,Тополя біла,Рябина звичайна,Глід одноматочковий,Акація біла,Граб звичайний,Бук лісовий,Берест шорсткий,Ліщина,Горіх волоський,Гінкго,Катальпа,Платан східний,Тюльпанове дерево,Кедр атласький,Тис ягідний,Ялиця біла"
+           values="Quercus robur,Quercus petraea,Quercus rubra,Quercus pubescens,Aesculus hippocastanum,Aesculus carnea,Castanea sativa,Acer platanoides,Acer pseudoplatanus,Acer campestre,Acer tataricum,Acer negundo,Acer palmatum,Prunus serrulata,Prunus yedoensis,Prunus subhirtella,Prunus avium,Prunus cerasus,Prunus padus,Prunus domestica,Prunus armeniaca,Prunus persica,Morus alba,Morus nigra,Thuja occidentalis,Thuja orientalis,Thuja plicata,Magnolia soulangeana,Magnolia stellata,Magnolia grandiflora,Tilia cordata,Tilia platyphyllos,Tilia europaea,Malus domestica,Malus sylvestris,Malus floribunda,Pyrus communis,Pyrus pyraster,Betula pendula,Betula pubescens,Fraxinus excelsior,Picea abies,Picea pungens,Pinus sylvestris,Pinus nigra,Pinus nigra subsp. pallasiana,Larix Pip,Salix alba,Salix babylonica,Populus nigra,Populus tremula,Populus alba,Sorbus aucuparia,Crataegus monogyna,Robinia pseudoacacia,Gleditsia triacanthos,Stryphnodendron excelsum,Carpinus betulus,Fagus sylvatica,Ulmus glabra,Ulmus laevis,Corylus avellana,Juglans regia,Ginkgo biloba,Catalpa bignonioides,Platanus orientalis,Liriodendron tulipifera,Paulownia tomentosa,Cotinus coggygria,Staphylea pinnata,Sophora japonica,Cedrus atlantica,Taxus baccata,Abies alba,Alnus glutinosa"
+           uk.display_values="Дуб звичайний,Дуб скельний,Дуб червоний,Дуб пухнастий,Каштан кінський,Каштан червоний,Каштан їстівний,Клен гостролистий,Явір,Клен польовий,Клен татарський,Клен ясенолистий,Клен японський,Сакура японська,Сакура Йосіно,Сакура яйцевидна,Черешня,Вишня кисла,Черемха,Слива,Абрикос,Персик,Шовковиця біла,Шовковиця чорна,Туя західна,Туя східна,Туя гігантська,Магнолія Соланжа,Магнолія зіркова,Магнолія велика,Липа дрібнолиста,Липа крупнолиста,Липа європейська,Яблуня культурна,Яблуня дика,Яблуня декоративна,Груша культурна,Груша дика,Береза повисла,Береза пухнаста,Ясен звичайний,Ялина європейська,Ялина блакитна,Сосна звичайна,Сосна чорна,Сосна кримська,Модрина європейська,Верба біла,Верба плакуча,Тополя чорна,Осика,Тополя біла,Горобина звичайна,Глід одноматочковий,Акація біла,Гледичія колюча,Сумах оленерогий,Граб звичайний,Бук лісовий,Берест шорсткий,В'яз гладенький,Ліщина,Горіх волоський,Гінкго,Катальпа,Платан східний,Тюльпанове дерево,Павловнія повстяна,Скумпія звичайна,Клекачка периста,Софора японська,Кедр атласький,Тис ягідний,Ялиця біла,Вільха чорна"
            editable="true" />
     <text key="species:uk" text="Species (Ukrainian)" uk.text="Вид (укр)" />
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
     <combo key="taxon" text="Family" uk.text="Родина"
-           values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae"
-           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові"
+           values="Fagaceae,Sapindaceae,Pinaceae,Cupressaceae,Rosaceae,Betulaceae,Salicaceae,Magnoliaceae,Malvaceae,Oleaceae,Fabaceae,Juglandaceae,Ginkgoaceae,Bignoniaceae,Platanaceae,Taxaceae,Lauraceae,Ulmaceae,Moraceae,Paulowniaceae,Anacardiaceae,Anacardiaceae"
+           uk.display_values="Букові,Сапіндові,Соснові,Кипарисові,Розові,Березові,Вербові,Магнолієві,Мальвові,Маслинові,Бобові,Горіхові,Гінкгові,Бігнонієві,Платанові,Тисові,Лаврові,В'язові,Шовковицеві,Павловнієві,Сумахові,Анакардієві"
            editable="true"
            delete_if_empty="true" />
 </chunk>
 
 <chunk id="shrub_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
-           values="Viburnum opulus,Viburnum lantana,Sambucus nigra,Sambucus racemosa,Juniperus communis,Juniperus sabina,Juniperus horizontalis,Syringa vulgaris,Syringa josikaea,Rosa canina,Rosa rugosa,Cornus sanguinea,Cornus mas,Cornus alba,Spiraea japonica,Spiraea vanhouttei,Forsythia x intermedia,Berberis vulgaris,Berberis thunbergii,Cotoneaster horizontalis,Euonymus europaeus,Euonymus fortunei,Hibiscus syriacus,Buxus sempervirens,Ligustrum vulgare,Hydrangea macrophylla,Hydrangea paniculata,Philadelphus coronarius,Weigela florida,Deutzia scabra,Mahonia aquifolium,Rhododendron luteum,Rhododendron ponticum,Vaccinium myrtillus,Ribes nigrum,Ribes rubrum,Ribes uva-crispa,Rubus idaeus,Lonicera tatarica,Lonicera caprifolium,Chaenomeles japonica,Symphoricarpos albus,Prunus laurocerasus,Prunus spinosa"
-           uk.display_values="Калина звичайна,Калина гордовина,Бузина чорна,Бузина червона,Ялівець звичайний,Ялівець козацький,Ялівець горизонтальний,Бузок звичайний,Бузок угорський,Шипшина собача,Шипшина зморшкувата,Свидина криваво-червона,Кизил справжній,Свидина біла,Спірея японська,Спірея Вангутта,Форзиція проміжна,Барбарис звичайний,Барбарис Тунберга,Кизильник горизонтальний,Бруслина європейська,Бруслина Форчуна,Гібіскус сирійський,Самшит,Бирючина звичайна,Гортензія садова,Гортензія мітельчата,Чубушник,Вейгела квітуча,Дейція шорстка,Магонія падуболиста,Рододендрон жовтий,Рододендрон понтійський,Чорниця,Смородина чорна,Смородина червона,Аґрус,Малина,Жимолость татарська,Жимолость каприфоль,Айва японська,Сніжноягідник білий,Лавровишня,Терен"
+           values="Viburnum opulus,Viburnum lantana,Sambucus nigra,Sambucus racemosa,Juniperus communis,Juniperus sabina,Juniperus horizontalis,Syringa vulgaris,Syringa josikaea,Rosa canina,Rosa rugosa,Cornus sanguinea,Cornus mas,Cornus alba,Spiraea japonica,Spiraea vanhouttei,Forsythia x intermedia,Berberis vulgaris,Berberis thunbergii,Cotoneaster horizontalis,Euonymus europaeus,Euonymus fortunei,Hibiscus syriacus,Buxus sempervirens,Ligustrum vulgare,Hydrangea macrophylla,Hydrangea paniculata,Philadelphus coronarius,Weigela florida,Deutzia scabra,Mahonia aquifolium,Rhododendron luteum,Rhododendron ponticum,Vaccinium myrtillus,Vaccinium corymbosum,Ribes nigrum,Ribes rubrum,Ribes uva-crispa,Rubus idaeus,Rubus fruticosus,Lonicera tatarica,Lonicera x americana,Chaenomeles japonica,Symphoricarpos albus,Prunus laurocerasus,Prunus spinosa,Physocarpus opulifolius,Potentilla fruticosa,Kerria japonica,Hippophae rhamnoides,Frangula alnus,Rhamnus cathartica"
+           uk.display_values="Калина звичайна,Калина гордовина,Бузина чорна,Бузина червона,Ялівець звичайний,Ялівець козацький,Ялівець horizontal,Бузок звичайний,Бузок угорський,Шипшина собача,Шипшина зморшкувата,Свидина криваво-червона,Кизил справжній,Свидина біла,Спірея японська,Спірея Вангутта,Форзиція проміжна,Барбарис звичайний,Барбарис Тунберга,Кизильник горизонтальний,Бруслина європейська,Бруслина Форчуна,Гібіскус сирійський,Самшит,Бирючина звичайна,Гортензія садова,Гортензія мітельчата,Чубушник,Вейгела квітуча,Дейція шорстка,Магонія падуболиста,Рододендрон жовтий,Рододендрон понтійський,Чорниця,Лохина високоросла,Смородина чорна,Смородина червона,Аґрус,Малина,Ожина,Жимолость татарська,Жимолость каприфоль,Айва японська,Сніжноягідник білий,Лавровишня,Терен,Пухироплідник калинолистий,Перстач кущовий,Керія японська,Обліпиха крушиновидна,Крушина ламка,Жостір проносний"
            editable="true" />
     <text key="species:uk" text="Species (Ukrainian)" uk.text="Вид (укр)" />
     <text key="species:en" text="Species (English)" uk.text="Вид (англ)" />
     <combo key="taxon" text="Family" uk.text="Родина"
-           values="Adoxaceae,Cupressaceae,Oleaceae,Rosaceae,Cornaceae,Berberidaceae,Celastraceae,Malvaceae,Buxaceae,Hydrangeaceae,Ericaceae,Grossulariaceae,Caprifoliaceae"
-           uk.display_values="Адоксові,Кипарисові,Маслинові,Розові,Кизилові,Барбарисові,Бересклетові,Мальвові,Самшитові,Гортензієві,Вересові,Аґрусові,Жимолостеві"
+           values="Adoxaceae,Cupressaceae,Oleaceae,Rosaceae,Cornaceae,Berberidaceae,Celastraceae,Malvaceae,Buxaceae,Hydrangeaceae,Ericaceae,Grossulariaceae,Caprifoliaceae,Viburnaceae,Elaeagnaceae,Rhamnaceae"
+           uk.display_values="Адоксові,Кипарисові,Маслинові,Розові,Кизилові,Барбарисові,Бересклетові,Мальвові,Самшитові,Гортензієві,Вересові,Аґрусові,Жимолостеві,Калинові,Лохові,Жостерові"
            editable="true"
            delete_if_empty="true" />
 </chunk>
@@ -80,10 +79,8 @@
     <text key="ref" text="Reference number" uk.text="Інвентарний номер" />
 </chunk>
 
-<!-- ========== Menu ========== -->
 <group name="European Trees and Shrubs" uk.name="Європейські дерева та кущі" icon="presets/natural/tree.svg">
 
-    <!-- Trees -->
     <group name="Trees" uk.name="Дерева" icon="presets/natural/tree.svg">
 
         <item name="Tree" type="node" icon="presets/natural/tree.svg" preset_name_label="true">
@@ -119,7 +116,6 @@
 
     </group>
 
-    <!-- Shrubs -->
     <group name="Shrubs" uk.name="Кущі" icon="presets/natural/scrub.svg">
 
         <item name="Shrub" type="node" icon="presets/natural/scrub.svg" preset_name_label="true">
