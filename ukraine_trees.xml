@@ -5,7 +5,7 @@
          uk.description="Європейські дерева та кущі"
          shortdescription="Trees and Shrubs"
          uk.shortdescription="Дерева та кущі"
-         version="1.3">
+         version="1.3.1">
 
 <chunk id="tree_species_combo">
     <combo key="species" text="Species (Latin)" uk.text="Вид (латина)"
