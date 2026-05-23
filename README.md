@@ -61,14 +61,21 @@ Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/refs/heads/main/ukra
 **En**: *Presets* -> *Preset preferences* -> *Active presets* «+»
 
 ## Howto Install Vespucci Preset
-Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/refs/heads/main/ukraine_trees.xml` in Vespucci editor.
-
+**Use the dedicated Vespucci version** with Ukrainian names as primary display:
+ 
+Add `https://raw.githubusercontent.com/gontsa/josm-trees-ua/refs/heads/main/ukraine_trees_vespucci.xml` in Vespucci editor.
+ 
 **Uk**: *Керування заготовками* -> *Додати заготовку* -> Вставити URL та назву заготовки
 **En**: *Managing presets* -> *Add preset* -> *Active presets* «+» Paste URL for the file containing the preset and a name
-
+ 
+> ℹ️ **Why a separate file? / Навіщо окремий файл?**
+> - **En**: Vespucci does not support the `uk.display_values` localization attribute the same way JOSM does. The `ukraine_trees_vespucci.xml` version uses Ukrainian names as the primary `display_values` (without the `uk.` prefix), so Ukrainian species names appear correctly in Vespucci regardless of device language settings.
+> - **Uk**: Vespucci не підтримує атрибут локалізації `uk.display_values` так, як JOSM. Версія `ukraine_trees_vespucci.xml` використовує українські назви як основні `display_values` (без префіксу `uk.`), тому українські назви видів коректно відображаються у Vespucci незалежно від мовних налаштувань пристрою.
+ 
 ⚠️ **Important Note for Vespucci Users / Важливе зауваження для користувачів Vespucci:**
 - **Uk**: Щоб цей пресет коректно підтягувався для точок (`natural=tree` та `natural=shrub`), у налаштуваннях Vespucci необхідно **вимкнути стандартний (дефолтний) пресет**, інакше застосовуватимуться вбудовані базові теги редактора. (*Налаштування* -> *Інструменти мапінгу* -> *Заготовки тегів* -> Вимкнути *Вбудовані заготовки*).
 - **En**: For this preset to work correctly for nodes (`natural=tree` and `natural=shrub`), you must **disable the default preset** in Vespucci settings. Otherwise, the editor's built-in basic tags will override it. (*Preferences* -> *Mapping tools* -> *Tag presets* -> Uncheck *Built-in presets*).
+
 
 ## Tags used
 | Key | Values | Description |
